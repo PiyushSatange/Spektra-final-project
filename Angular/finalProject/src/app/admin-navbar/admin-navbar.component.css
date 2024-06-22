@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    width: 250px;
+}
+
+.sidebar-header {
+    background-color: #343a40;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+.navcolor1 a{
+    background-color: blue;
+}
+.navcolor2 a{
+    background-color: blue;
+}
+.navcolor3 a{
+    background-color: blue;
+}
+.navcolor4 a{
+    background-color: blue;
+}

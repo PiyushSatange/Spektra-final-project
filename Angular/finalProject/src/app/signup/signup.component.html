@@ -1,0 +1,94 @@
+<section class="vh-100" style="background-color: #eee;">
+    <div class="container h-100">
+      <div class="row d-flex justify-content-center align-items-center h-100">
+        <div class="col-lg-12 col-xl-11">
+          <div class="card text-black" style="border-radius: 25px;">
+            <div class="card-body p-md-2">
+              <div class="row justify-content-center">
+                <div class="col-md-10 col-lg-6 col-xl-5 order-2 order-lg-1">
+
+                  <p class="text-center h1 fw-bold mb-5 mx-1 mx-md-4 mt-4">Sign up</p>
+  
+                  <form class="mx-1 mx-md-4" [formGroup]="signupForm">
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-user fa-lg me-3 fa-fw"></i>
+                      <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                        <input type="text" id="form3Example1c" class="form-control" formControlName="name" placeholder="Your Name"/>
+                        @if (signupForm.get('name')?.touched && signupForm.get('name')?.invalid) {
+                          <small class="text-danger">Name is required</small>
+                        }
+                      </div>
+                    </div>
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-envelope fa-lg me-3 fa-fw"></i>
+                      <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                        <input type="email" id="form3Example3c" class="form-control" formControlName="email"  placeholder="Your Email"/>
+                        @if (signupForm.get('email')?.touched && signupForm.get('email')?.hasError('pattern')) {
+                          <small class="text-danger">Email is invalid</small>
+                        } 
+                        @else if(signupForm.get('email')?.touched && signupForm.get('email')?.invalid) {
+                          <small class="text-danger">Email is required</small>
+                        }
+                      </div>
+                    </div>
+  
+                    <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-lock fa-lg me-3 fa-fw"></i>
+                      <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                        <input type="password" id="form3Example4c" class="form-control" formControlName="password"  placeholder="Create Password"/>
+                        @if(signupForm.get('password')?.touched && signupForm.get('password')?.invalid){
+                          <small class="text-danger">Password is required</small>
+                        }
+                      </div>
+                    </div>
+  
+                    <!-- <div class="d-flex flex-row align-items-center mb-4">
+                      <i class="fas fa-key fa-lg me-3 fa-fw"></i>
+                      <div data-mdb-input-init class="form-outline flex-fill mb-0">
+                        <input type="password" id="form3Example4cd" class="form-control" formControlName="confirmPassword" placeholder="Confirm your password"/>
+                        @if(signupForm.get('confirmPassword')?.touched && signupForm.get('confirmPassword')?.invalid){
+                          <small class="text-danger">Confirm the password</small>
+                        }
+                      </div>
+                    </div> -->
+                    
+                    <div>
+                      <div class="form-check d-flex justify-content-center mb-5">
+                        <input class="form-check-input me-2" type="checkbox" formControlName="agree" value="" id="form2Example3c" />
+                        <label class="form-check-label" for="form2Example3">
+                          I agree all statements in <a href="#!">Terms of service</a><br>
+                          @if(signupForm.get('agree')?.touched && signupForm.get('agree')?.invalid){
+                            <small class="text-danger">Please check the box</small>
+                          }
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="d-flex flex-column justify-content-center mx-4 mb-3 mb-lg-4">
+                      <button  type="button" class="btn btn-primary btn-lg" [disabled]="signupForm.invalid" (click)="_signUp()">Register</button>
+                      <div>
+                        <p class="small fw-bold mt-2 pt-1 mb-0">Already Registered User? <a href="#!"
+                          class="link-danger" [routerLink]="'/login'">LogIn</a></p>
+                        <p class="small fw-bold mt-2 pt-1 mb-0">Explore without sign up <a href="#!"
+                          class="link-success" [routerLink]="'/Home'">Explore</a></p>
+                      </div>
+                    </div>
+  
+                  </form>
+
+                 
+  
+                </div>
+                <div class="col-md-10 col-lg-6 col-xl-7 d-flex align-items-center order-1 order-lg-2">
+  
+                  <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-registration/draw1.webp"
+                    class="img-fluid" alt="Sample image">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

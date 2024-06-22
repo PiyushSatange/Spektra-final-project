@@ -1,0 +1,19 @@
+<div class="sidebar bg-dark text-white vh-100">
+    <div class="sidebar-header p-3">
+        <h2>Admin</h2>
+    </div>
+    <ul class="nav flex-column">
+        <li class="nav-item">
+            <a routerLink="/Admin" class="nav-link text-white">Dashboard</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/Admin/Users" class="nav-link text-white">Users</a>
+        </li>
+        <li class="nav-item">
+            <a routerLink="/Admin/Resources" class="nav-link text-white">Resources</a>
+        </li>
+        <li class="nav-item" (click)="logout()">
+            <a style="cursor: pointer;"  class="nav-link text-white">Log Out</a>
+        </li>
+    </ul>
+</div>

@@ -1,0 +1,111 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px; /* Adjust width as needed */
+    background-color: #f8f9fa; /* Sidebar background color */
+    overflow-y: auto; /* Allow sidebar to scroll if content exceeds height */
+    border-right: 1px solid #dee2e6; /* Sidebar border */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+  }
+
+.sidebar-header {
+    background-color: #343a40;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+    margin-left: 250px; /* Adjust margin to match sidebar width */
+}
+
+.date-btn{
+    height: 38px;
+    margin-top: 31px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.scrollable-content {
+    overflow: none; /* Allow content to scroll if it exceeds height */
+    max-height: calc(100vh - 50px); /* Adjust height as needed, considering navbar height */
+  }
+
+  .line {
+    fill: none;
+    stroke: steelblue;
+    stroke-width: 2px;
+  }
+
+  .resource-card{
+    box-shadow: 0px 0px 4px rgba(0,0,0,0.5);
+}
+
+.card-azure {
+    background-color: #279ae3;
+    color: #fff;
+  }
+  .card-aws {
+    background-color: #FF9900;
+    color: #fff;
+  }
+  .card-gcp {
+    background-color: #00a67d;
+    color: #fff;
+  }
+  .card-total{
+    background-color: #8e44ad;
+    color: #fff;
+  }
+
+.card-custom {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+}
+
+.professional-heading {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300;
+  color: #333;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #0072c6;
+}

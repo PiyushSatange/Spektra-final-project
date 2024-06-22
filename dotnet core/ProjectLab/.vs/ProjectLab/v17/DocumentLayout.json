@@ -1,0 +1,315 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\services\\scriptfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:services\\scriptfile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\scriptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\scriptcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\awscostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\awscostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\bucketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\bucketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\azurecostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\azurecostcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\models\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:models\\labcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\models\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:models\\bucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:models\\admin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\models\\pr_ bucketsbyemailclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:models\\pr_ bucketsbyemailclass.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\models\\usersbucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:models\\usersbucket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\controllers\\userbucketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:controllers\\userbucketcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\services\\bucketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:services\\bucketservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\formdatapost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:formdatapost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|c:\\users\\lenovo\\desktop\\project\\backend\\projectlab\\projectlab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{B365CC36-5CEA-4F63-92B6-ABE321BA1805}|ProjectLab.csproj|solutionrelative:projectlab.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AzureCostController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\AzureCostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AzureCostController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\AzureCostController.cs",
+              "RelativeToolTip": "Controllers\\AzureCostController.cs",
+              "ViewState": "AQIAAHgAAAAAAAAAAAAuwH8AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T07:06:15.545Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BucketController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\BucketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BucketController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\BucketController.cs",
+              "RelativeToolTip": "Controllers\\BucketController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAA7wFUAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T02:49:41.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LabContext.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\LabContext.cs",
+              "RelativeDocumentMoniker": "Models\\LabContext.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\LabContext.cs",
+              "RelativeToolTip": "Models\\LabContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAGwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:29:45.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Admin.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\Admin.cs",
+              "RelativeDocumentMoniker": "Models\\Admin.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\Admin.cs",
+              "RelativeToolTip": "Models\\Admin.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:50:10.792Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScriptFile.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Services\\ScriptFile.cs",
+              "RelativeDocumentMoniker": "Services\\ScriptFile.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Services\\ScriptFile.cs",
+              "RelativeToolTip": "Services\\ScriptFile.cs",
+              "ViewState": "AQIAAAwCAAAAAAAAAAApwCACAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T10:08:18.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScriptController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\ScriptController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ScriptController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\ScriptController.cs",
+              "RelativeToolTip": "Controllers\\ScriptController.cs",
+              "ViewState": "AQIAAFIAAAAAAAAAAAAAAGEAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-11T09:34:57.929Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\AdminController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AdminController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\AdminController.cs",
+              "RelativeToolTip": "Controllers\\AdminController.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T08:03:11.89Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AwsCostController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\AwsCostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AwsCostController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\AwsCostController.cs",
+              "RelativeToolTip": "Controllers\\AwsCostController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAACXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-18T07:38:35.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Pr_ BucketsByEmailClass.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\Pr_ BucketsByEmailClass.cs",
+              "RelativeDocumentMoniker": "Models\\Pr_ BucketsByEmailClass.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\Pr_ BucketsByEmailClass.cs",
+              "RelativeToolTip": "Models\\Pr_ BucketsByEmailClass.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:50:25.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Bucket.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\Bucket.cs",
+              "RelativeDocumentMoniker": "Models\\Bucket.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\Bucket.cs",
+              "RelativeToolTip": "Models\\Bucket.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABcAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T02:47:38.767Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UsersBucket.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\UsersBucket.cs",
+              "RelativeDocumentMoniker": "Models\\UsersBucket.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Models\\UsersBucket.cs",
+              "RelativeToolTip": "Models\\UsersBucket.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAkAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T20:25:39.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-16T10:00:43.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAIA0wGAAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-15T04:30:45.237Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UserBucketController.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\UserBucketController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserBucketController.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Controllers\\UserBucketController.cs",
+              "RelativeToolTip": "Controllers\\UserBucketController.cs",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAuwBgAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T21:20:09.342Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "BucketService.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Services\\BucketService.cs",
+              "RelativeDocumentMoniker": "Services\\BucketService.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\Services\\BucketService.cs",
+              "RelativeToolTip": "Services\\BucketService.cs",
+              "ViewState": "AQIAAAEAAAAAAAAAAIA8wAwAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-13T09:59:49.1Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "formdatapost.cs",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\formdatapost.cs",
+              "RelativeDocumentMoniker": "formdatapost.cs",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\formdatapost.cs",
+              "RelativeToolTip": "formdatapost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-17T17:08:42.449Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ProjectLab.csproj",
+              "DocumentMoniker": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\ProjectLab.csproj",
+              "RelativeDocumentMoniker": "ProjectLab.csproj",
+              "ToolTip": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\ProjectLab.csproj",
+              "RelativeToolTip": "ProjectLab.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-06-16T09:16:38.213Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

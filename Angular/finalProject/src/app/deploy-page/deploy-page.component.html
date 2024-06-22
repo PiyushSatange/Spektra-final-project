@@ -1,0 +1,169 @@
+<app-user-navbar></app-user-navbar>
+@if(isloggedIn == true){
+  <div class="container px-5">
+    <h2 style="text-align: center;" class="professional-heading">Deploy Your Terraform Here</h2>
+    <p class="text-dark" style="text-align: center;">Deploy you terraform here. You can choose either one platoform or multiple platform at the same time. Keep in mind to send right terraform file to the selected platform. </p>
+  </div>
+  <div class="container">
+    <strong>Read the Instructions carefully :</strong>
+    <div class="alert alert-primary" role="alert">
+      <ul>
+        <li>Terraform should not have any mistake.</li>
+        <li>All the speling and variables should be correct.</li>
+        <li>Check you terraform before deploying.</li>
+        <li>Name of the resource should be unique</li>
+      </ul>
+    </div>
+  </div>
+  <div class="px-5 my-5 d-flex justify-content-around">
+      <div class="upload-container border rounded-3 " style="background-color: #83a0a0;" (dragover)="onDragOverAws($event)" (drop)="onDropAws($event)" (dragleave)="onDragLeaveAws($event)">
+          <div class="upload-box" style="background-color: #83a0a0;" [class.dragover]="isDragOverAws">
+            <div class="icon">
+              <i class="fa-brands fa-aws fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <label for="file-upload-aws" class="upload-button">
+              <i class="fas fa-upload"></i>
+              CHOOSE FILE
+              <span class="dropdown-arrow">▼</span>
+            </label>
+            <input id="file-upload-aws" type="file" (change)="onFileSelectedAws($event)" />
+            <p>or drop file here</p>
+          </div>
+          <p class="upload-message" *ngIf="droppedFileAws">
+            {{ droppedFileAws.name }}<br>
+            <button class="btn btn-outline-light" (click)="onAwsUpload()">Deploy</button>
+          </p>
+      </div>  
+      <div class="upload-container border rounded-3 "  style="background-color: #e7694b;"  (dragover)="onDragOverGcp($event)" (drop)="onDropGcp($event)" (dragleave)="onDragLeaveGcp($event)">
+          <div class="upload-box" style="background-color: #e7694b;" [class.dragover]="isDragOverGcp">
+            <div class="icon">
+              <i class="fa-brands fa-google fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <label for="file-upload-gcp" class="upload-button">
+              <i class="fas fa-upload"></i>
+              CHOOSE FILE
+              <span class="dropdown-arrow">▼</span>
+            </label>
+            <input id="file-upload-gcp" type="file" (change)="onFileSelectedGcp($event)" />
+            <p>or drop file here</p>
+          </div>
+          <p class="upload-message" *ngIf="droppedFileGcp">
+            {{ droppedFileGcp.name }}<br>
+            <button class="btn btn-outline-light">Deploy</button>
+          </p>
+      </div>  
+      
+      <div class="upload-container border rounded-3" style="background-color: #ffc95b;" (dragover)="onDragOverAzure($event)" (drop)="onDropAzure($event)" (dragleave)="onDragLeaveAzure($event)">
+          <div class="upload-box" style="background-color: #ffc95b;" [class.dragover]="isDragOverAzure">
+            <div class="icon">
+              <i class="fa-brands fa-windows fa-xl" style="color: #ffffff;"></i>
+            </div>
+            <label for="file-upload-azure" class="upload-button">
+              <i class="fas fa-upload"></i>
+              CHOOSE FILE
+              <span class="dropdown-arrow">▼</span>
+            </label>
+            <input id="file-upload-azure" type="file" (change)="onFileSelectedAzure($event)" />
+            <p>or drop file here</p>
+          </div>
+          <p class="upload-message" *ngIf="droppedFileAzure">
+            {{ droppedFileAzure.name }}<br>
+            <button class="btn btn-outline-light" (click)="onAzureUpload()">Deploy</button>
+          </p>
+      </div>
+  </div>
+}
+@if(isloggedIn == false) {
+  <div class="d-flex align-items-center justify-content-center vh-100 bg-light">
+    <div class="text-center p-4 rounded shadow">
+      <h1 class="mb-4">Welcome to Our Website</h1>
+      <p class="mb-4 text-dark">Please log in to access this content.</p>
+      <button routerLink="/login" class="btn btn-primary">Log In</button>
+    </div>
+  </div>
+}
+<app-footer></app-footer>
+
+<!-- 
+<app-user-navbar></app-user-navbar>
+<div [class.loading]="loading">
+  <div *ngIf="loading" class="loading-spinner">
+    <div class="spinner-border" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <div *ngIf="isloggedIn; else loggedOut">
+    <div class="container px-5">
+      <h2 style="text-align: center;" class="fs-3">Deploy Your Terraform Here</h2>
+      <p class="text-dark" style="text-align: center;">
+        Deploy your terraform here. You can choose either one platform or multiple platforms at the same time. Keep in mind to send the right terraform file to the selected platform.
+      </p>
+    </div>
+    <div class="px-5 my-5 d-flex flex-column justify-content-around">
+      <div class="upload-container border rounded-3" style="background-color: #83a0a0;" (dragover)="onDragOverAws($event)" (drop)="onDropAws($event)" (dragleave)="onDragLeaveAws($event)">
+        <div class="upload-box" style="background-color: #83a0a0;" [class.dragover]="isDragOverAws">
+          <div class="icon">
+            <i class="fa-brands fa-aws fa-xl" style="color: #ffffff;"></i>
+          </div>
+          <label for="file-upload-aws" class="upload-button">
+            <i class="fas fa-upload"></i>
+            CHOOSE FILE
+            <span class="dropdown-arrow">▼</span>
+          </label>
+          <input id="file-upload-aws" type="file" (change)="onFileSelectedAws($event)" />
+          <p>or drop file here</p>
+        </div>
+        <p class="upload-message" *ngIf="droppedFileAws">
+          {{ droppedFileAws.name }}<br>
+          <button class="btn btn-outline-light" (click)="onAwsUpload()">Deploy</button>
+        </p>
+      </div>
+      <div class="upload-container border rounded-3" style="background-color: #e7694b;" (dragover)="onDragOverGcp($event)" (drop)="onDropGcp($event)" (dragleave)="onDragLeaveGcp($event)">
+        <div class="upload-box" style="background-color: #e7694b;" [class.dragover]="isDragOverGcp">
+          <div class="icon">
+            <i class="fa-brands fa-google fa-xl" style="color: #ffffff;"></i>
+          </div>
+          <label for="file-upload-gcp" class="upload-button">
+            <i class="fas fa-upload"></i>
+            CHOOSE FILE
+            <span class="dropdown-arrow">▼</span>
+          </label>
+          <input id="file-upload-gcp" type="file" (change)="onFileSelectedGcp($event)" />
+          <p>or drop file here</p>
+        </div>
+        <p class="upload-message" *ngIf="droppedFileGcp">
+          {{ droppedFileGcp.name }}<br>
+          <button class="btn btn-outline-light">Deploy</button>
+        </p>
+      </div>
+      <div class="upload-container border rounded-3" style="background-color: #ffc95b;" (dragover)="onDragOverAzure($event)" (drop)="onDropAzure($event)" (dragleave)="onDragLeaveAzure($event)">
+        <div class="upload-box" style="background-color: #ffc95b;" [class.dragover]="isDragOverAzure">
+          <div class="icon">
+            <i class="fa-brands fa-windows fa-xl" style="color: #ffffff;"></i>
+          </div>
+          <label for="file-upload-azure" class="upload-button">
+            <i class="fas fa-upload"></i>
+            CHOOSE FILE
+            <span class="dropdown-arrow">▼</span>
+          </label>
+          <input id="file-upload-azure" type="file" (change)="onFileSelectedAzure($event)" />
+          <p>or drop file here</p>
+        </div>
+        <p class="upload-message" *ngIf="droppedFileAzure">
+          {{ droppedFileAzure.name }}<br>
+          <button class="btn btn-outline-light" (click)="onAzureUpload()">Deploy</button>
+        </p>
+      </div>
+    </div>
+  </div>
+  <ng-template #loggedOut>
+    <div class="d-flex align-items-center justify-content-center vh-100 bg-light">
+      <div class="text-center p-4 rounded shadow">
+        <h1 class="mb-4">Welcome to Our Website</h1>
+        <p class="mb-4 text-dark">Please log in to access this content.</p>
+        <button routerLink="/login" class="btn btn-primary">Log In</button>
+      </div>
+    </div>
+  </ng-template>
+</div>
+<app-footer></app-footer> -->

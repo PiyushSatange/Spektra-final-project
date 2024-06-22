@@ -1,0 +1,137 @@
+ /* body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px; 
+    background-color: #f8f9fa; 
+    overflow-y: none; 
+    border-right: 1px solid #dee2e6; 
+    scrollbar-width: none; 
+    -ms-overflow-style: none; 
+}
+
+.sidebar-header {
+    background-color: #343a40;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.scrollable-content {
+    overflow: none;
+    max-height: calc(100vh - 50px); 
+}  */
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.d-flex {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 250px; /* Adjust width as needed */
+    background-color: #f8f9fa; /* Sidebar background color */
+    overflow-y: auto; /* Allow sidebar to scroll if content exceeds height */
+    border-right: 1px solid #dee2e6; /* Sidebar border */
+    scrollbar-width: none; /* Hide scrollbar for Firefox */
+    -ms-overflow-style: none; /* Hide scrollbar for IE and Edge */
+}
+
+.sidebar-header {
+    background-color: #343a40;
+    text-align: center;
+}
+
+.nav-link {
+    padding: 10px 15px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    background-color: #495057;
+    color: #ffffff;
+}
+
+.main-content {
+    margin-left: 250px; /* Adjust to match sidebar width */
+    padding: 20px;
+    width: calc(100% - 250px); /* Adjust to match sidebar width */
+    overflow-y: auto;
+    height: 100vh;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.card-text {
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
+.scrollable-content {
+    overflow: none; /* Allow content to scroll if it exceeds height */
+    max-height: calc(100vh - 50px); /* Adjust height as needed, considering navbar height */
+}
+
+.professional-heading {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #0072c6;
+  }

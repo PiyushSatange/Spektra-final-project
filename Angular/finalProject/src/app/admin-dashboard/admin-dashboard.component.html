@@ -1,0 +1,81 @@
+<div class="d-flex">
+    <div class="sidebar">
+      <app-admin-navbar></app-admin-navbar>
+    </div>
+    <div class="main-content">
+      <h1 class="professional-heading">Cost Estimation For Cloud</h1>
+      <div class="row">
+        <div class="col-5">
+          <label for="startDate" class="form-label">Start Date:</label>
+          <input type="date" class="form-control" id="startDate" [(ngModel)]="startDate">
+        </div>
+        <div class="col-5">
+          <label for="endDate" class="form-label ">End Date:</label>
+          <input type="date" class="form-control " id="endDate" [(ngModel)]="endDate">
+        </div>
+        <button class="btn btn-primary date-btn col-2" (click)="sendDates()">Submit</button>
+      </div>
+     <!-- Horizontal rule with a color -->
+      <hr class="my-4 border-secondary">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card card-custom card-aws">
+            <div class="card-body">
+                <i class="fab fa-aws fa-3x"></i>
+              <h5 class="card-title mt-3">AWS</h5>
+              <p class="card-text display-4">${{ awsData.totalCost | number: '1.1-1' }}</p>
+            </div>
+        </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-custom card-azure">
+            <div class="card-body">
+                <i class="fa-solid fa-a fa-3x"></i>
+              <h5 class="card-title mt-3">Azure</h5>
+              <p class="card-text display-4">${{ TotalAzureCost / 82 | number: '1.1-1' }}</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card card-custom card-gcp">
+            <div class="card-body">
+                <i class="fab fa-google fa-3x"></i>
+              <h5 class="card-title mt-3">GCP</h5>
+              <p class="card-text display-4">$0</p>
+            </div>
+          </div>
+        </div>
+        <!-- <div class="col-md-3">
+          <div class="card text-center mb-4">
+            <div class="card-body">
+              <h5 class="card-title">GCP</h5>
+              <p class="card-text display-4"></p>
+            </div>
+          </div>
+        </div> -->
+        <div class="col-md-3">
+          <div class="card card-custom card-total">
+            <div class="card-body">
+              <i class="fa-solid fa-money-check fa-3x"></i>
+              <h5 class="card-title mt-3">Total</h5>
+              <p class="card-text display-4">{{TotalCloudCost | number: '1.1-1'}}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr class="my-4 border-secondary">
+      <h3 class="professional-heading">Azure Cost Chart</h3>
+      <div class="scrollable-content">
+        <canvas #myAzureChart id="myAzureChart"></canvas>
+      </div>
+      <hr class="my-4 border-secondary">
+      <h3  class="professional-heading">AWS Cost Chart</h3>
+      <div class="scrollable-content">
+        <canvas #myAwsChart id="myAwsChart"></canvas>
+      </div>
+      <!-- <div #chart></div>
+      <div class="scrollable-content">
+        <canvas #myAwsChart id="myAwsChart"></canvas>
+      </div> -->
+    </div>
+  </div>  

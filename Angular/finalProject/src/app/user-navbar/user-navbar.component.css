@@ -1,0 +1,57 @@
+
+.nav-boxx{
+  width: 150px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.nav-boxx:hover{
+  background-color: #7330f9;
+  font-weight: bold;
+}
+
+.nav-boxx:hover a{
+  color: white;
+}
+
+.log-div{
+  height: 50%;
+  margin-top: 8px;
+}
+
+.profile-picture {
+  width: 40px; /* Set the width and height as needed */
+  height: 40px;
+  border-radius: 50%; /* Make it a circle */
+  background-color: #ccc; /* Add a background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.initial {
+  color: #fff; /* Set the text color */
+  font-size: 24px; /* Set the font size */
+}
+
+
+.user-icon {
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.username {
+  display: inline-block; /* Ensure it takes up space even when hidden */
+  opacity: 0; /* Initially hide the username */
+  transition: opacity 0.3s ease; /* Add a smooth transition */
+  margin-top: 15px;
+}
+
+.username.visible {
+  opacity: 1; /* Show the username */
+}

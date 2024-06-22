@@ -1,0 +1,26 @@
+<div class="d-flex">
+    <app-admin-navbar></app-admin-navbar>
+    <div class="container p-4">
+        <div class="container mt-5">
+            <h2 class="mb-4">User List</h2>
+            <table class="table table-hover table-bordered">
+              <thead class="thead-dark">
+                <tr>
+                  <th scope="col">User Name</th>
+                  <th scope="col">User Email</th>
+                  <th scope="col">UID</th>
+                  <th scope="col">Action</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr *ngFor="let user of users">
+                  <td>{{ user.name }}</td>
+                  <td>{{ user.email }}</td>
+                  <td>{{ user.uid }}</td>
+                  <td><button class="btn btn-danger" (click)="blockUser(user.email)">Block</button></td>
+                </tr>
+              </tbody>
+            </table>
+        </div>
+    </div>
+</div>

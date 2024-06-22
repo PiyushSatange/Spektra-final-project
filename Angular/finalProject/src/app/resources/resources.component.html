@@ -1,0 +1,105 @@
+<app-user-navbar></app-user-navbar>
+@if (isLoggedIn == true) {
+    <div class="container mb-4" >
+        <div class="row row-cols-3">
+            <div class="col ">
+                <div class="card card-custom card-azure">
+                    <div class="card-body">
+                        <i class="fab fa-microsoft fa-3x"></i>
+                      <h5 class="card-title mt-3">Azure</h5>
+                      <p class="card-text display-4">{{azureCount}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-custom card-aws">
+                    <div class="card-body">
+                        <i class="fab fa-aws fa-3x"></i>
+                      <h5 class="card-title mt-3">AWS</h5>
+                      <p class="card-text display-4">{{awsCount}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card card-custom card-gcp">
+                    <div class="card-body">
+                        <i class="fab fa-google fa-3x"></i>
+                      <h5 class="card-title mt-3">GCP</h5>
+                      <p class="card-text display-4">{{gcpCount}}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  AWS Resources
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    @for (item of buckets; track $index) {
+                        @if (item.platform == "AWS") {
+                        <div class="card resource-card mt-4">
+                            <div class="card-header">
+                            {{item.platform}}
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-success"><i class="fa-solid fa-circle-dot fa-fade"></i>{{item.record_Status}}</h5>
+                                <div class="row justify-content-evenly text-center">
+                                    <div class="col"><h6>Name</h6><p>{{item.bucket_Name}}</p></div>
+                                    <div class="col"><h6>Resource</h6><p>{{item.resource_Type}}</p></div>
+                                    <div class="col"><h6>Region</h6><p>{{item.region}}</p></div>
+                                    <div class="col"><h6>Created Date</h6><p>{{item.created_Date}}</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    }        
+                    </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Azure Resources
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    @for (item of buckets; track $index) {
+                        @if (item.platform == "Azure") {
+                        <div class="card resource-card mt-4">
+                            <div class="card-header">
+                            {{item.platform}}
+                            </div>
+                            <div class="card-body">
+                                <h5 class="card-title text-success"><i class="fa-solid fa-circle-dot fa-fade"></i>{{item.record_Status}}</h5>
+                                <div class="row justify-content-evenly text-center">
+                                    <div class="col"><h6>Name</h6><p>{{item.bucket_Name}}</p></div>
+                                    <div class="col"><h6>Resource</h6><p>{{item.resource_Type}}</p></div>
+                                    <div class="col"><h6>Region</h6><p>{{item.region}}</p></div>
+                                    <div class="col"><h6>Created Date</h6><p>{{item.created_Date}}</p></div>
+                                </div>
+                            </div>
+                        </div>
+                        }
+                    }     
+                    </div>
+              </div>
+            </div>
+          </div>
+        
+    </div>
+} 
+@if (isLoggedIn == false) {
+    <div class="d-flex align-items-center justify-content-center vh-100 bg-light">
+        <div class="text-center p-4 rounded shadow">
+          <h1 class="mb-4">Welcome to Our Website</h1>
+          <p class="mb-4 text-dark">Please log in to access this content.</p>
+          <button routerLink="/login" class="btn btn-primary">Log In</button>
+        </div>
+    </div>
+}
+<app-footer></app-footer>

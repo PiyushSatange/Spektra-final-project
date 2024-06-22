@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\azure.tf",
+      "PackagePath": "staticwebassets\\azure.tf"
+    },
+    {
+      "Id": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\lksjddcn sdx.txt",
+      "PackagePath": "staticwebassets\\lksjddcn sdx.txt"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.ProjectLab.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.ProjectLab.props",
+      "PackagePath": "build\\ProjectLab.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.ProjectLab.props",
+      "PackagePath": "buildMultiTargeting\\ProjectLab.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.ProjectLab.props",
+      "PackagePath": "buildTransitive\\ProjectLab.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

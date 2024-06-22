@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "Hash": "2sc3fZxFAlAXPY8HPpNlbisHeK+Rry3hnrHjs3SDHZA=",
+  "Source": "ProjectLab",
+  "BasePath": "_content/ProjectLab",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ProjectLab\\wwwroot",
+      "Source": "ProjectLab",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\",
+      "BasePath": "_content/ProjectLab",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\azure.tf",
+      "SourceId": "ProjectLab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\",
+      "BasePath": "_content/ProjectLab",
+      "RelativePath": "azure.tf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\azure.tf"
+    },
+    {
+      "Identity": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\lksjddcn sdx.txt",
+      "SourceId": "ProjectLab",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\lenovo\\Desktop\\Project\\Backend\\ProjectLab\\wwwroot\\",
+      "BasePath": "_content/ProjectLab",
+      "RelativePath": "lksjddcn sdx.txt",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lksjddcn sdx.txt"
+    }
+  ]
+}

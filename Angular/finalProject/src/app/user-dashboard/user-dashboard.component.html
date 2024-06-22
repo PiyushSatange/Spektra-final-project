@@ -1,0 +1,73 @@
+<app-user-navbar></app-user-navbar>
+@if(isLoggedIn == true){
+<div class="container-fluid d-flex justify-content-evenly">
+    <div class="card mb-3 text-center bg-danger text-white" style="max-width: 18rem;">
+        <div class="card-header">AWS</div>
+        <div class="card-body">
+            <h5 class="card-title">Running Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+    <div class="card mb-3 text-center bg-success text-white" style="max-width: 18rem;">
+        <div class="card-header">GCP</div>
+        <div class="card-body">
+            <h5 class="card-title">Running Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+    <div class="card mb-3 text-center bg-warning text-white" style="max-width: 18rem;">
+        <div class="card-header">Azure</div>
+        <div class="card-body">
+            <h5 class="card-title">Running Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+    <div class="card mb-3 text-center bg-dark text-white" style="max-width: 18rem;">
+        <div class="card-header">All Cloud Platform</div>
+        <div class="card-body">
+            <h5 class="card-title">Total Running Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+</div>
+<div class="container-fluid d-flex justify-content-evenly">
+    <div class="card mb-3 text-center bg-danger text-white" style="max-width: 18rem;">
+        <div class="card-header">AWS</div>
+        <div class="card-body">
+            <h5 class="card-title">Destroyed Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+    <div class="card mb-3 text-center bg-success text-white" style="max-width: 18rem;">
+        <div class="card-header">GCP</div>
+        <div class="card-body">
+            <h5 class="card-title">Destroyed Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+    <div class="card mb-3 text-center bg-warning text-white" style="max-width: 18rem;">
+        <div class="card-header">Azure</div>
+        <div class="card-body">
+            <h5 class="card-title">Destroyed Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+    <div class="card mb-3 text-center bg-dark text-white" style="max-width: 18rem;">
+        <div class="card-header">All Cloud Platform</div>
+        <div class="card-body">
+            <h5 class="card-title">Total Destroyed Resources</h5>
+            <h1 class="card-text">5</h1>
+        </div>
+    </div>
+</div>
+}
+@if(isLoggedIn == false){
+    <div class="d-flex align-items-center justify-content-center vh-100 bg-light">
+        <div class="text-center p-4 rounded shadow">
+          <h1 class="mb-4">Welcome to Our Website</h1>
+          <p class="mb-4 text-dark">Please log in to access this content.</p>
+          <button routerLink="/login" class="btn btn-primary">Log In</button>
+        </div>
+    </div>
+}
+<app-footer></app-footer>

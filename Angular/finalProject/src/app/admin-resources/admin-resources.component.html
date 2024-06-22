@@ -1,0 +1,127 @@
+<!-- <div class="d-flex">
+  <div class="sidebar">
+    <app-admin-navbar></app-admin-navbar>
+  </div>
+    <div class="main-content p-4">
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Active Resources
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    @for (item of activeBuckets; track $index) {
+                        <div class="card resource-card mt-4">
+                            <div class="card-header">
+                            {{item.platform}}
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title  text-success"><i class="fa-solid fa-circle-dot fa-fade"></i>{{item.recordStatus}}</h5>
+                            <div class="row justify-content-evenly text-center">
+                                <div class="col"><h6>Name</h6><p>{{item.bucketName}}</p></div>
+                                <div class="col"><h6>Resource</h6><p>{{item.resource_Type}}</p></div>
+                                <div class="col"><h6>Region</h6><p>{{item.region}}</p></div>
+                                <div class="col"><h6>Region</h6><p>{{item.createdDate}}</p></div>
+                            </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Destroyed Resources
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    @for (item of destroyedBuckets; track $index) {
+                        <div class="card resource-card mt-4">
+                            <div class="card-header">
+                            {{item.platform}}
+                            </div>
+                            <div class="card-body">
+                            <h5 class="card-title  text-danger">{{item.recordStatus}}</h5>
+                            <div class="row justify-content-evenly text-center">
+                                <div class="col"><h6>Name</h6><p>{{item.bucketName}}</p></div>
+                                <div class="col"><h6>Region</h6><p>{{item.region}}</p></div>
+                                <div class="col"><h6>Deployed Date</h6><p>{{item.createdDate}}</p></div>
+                                <div class="col"><h6>Destroyed Date</h6><p>{{item.destroyedDate}}</div>
+                                <div class="col"><h6>Runtime</h6><p>{{item.runningHours}}</div>
+                            </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+</div> -->
+
+
+<div class="d-flex flex-row">
+  <div class="sidebar">
+    <app-admin-navbar></app-admin-navbar>
+  </div>
+  <div class="main-content p-4">
+    <h1 class="professional-heading">Deployed Resources</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Active Resources
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div *ngFor="let item of activeBuckets; let i = index">
+              <div class="card resource-card mt-4">
+                <div class="card-header">{{item.platform}}</div>
+                <div class="card-body">
+                  <h5 class="card-title text-success"><i class="fa-solid fa-circle-dot fa-fade"></i>{{item.recordStatus}}</h5>
+                  <div class="row justify-content-evenly text-center">
+                    <div class="col"><h6>Name</h6><p>{{item.bucketName}}</p></div>
+                    <div class="col"><h6>Resource</h6><p>{{item.resource_Type}}</p></div>
+                    <div class="col"><h6>Region</h6><p>{{item.region}}</p></div>
+                    <div class="col"><h6>Created Date</h6><p>{{item.createdDate}}</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+            Destroyed Resources
+          </button>
+        </h2>
+        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <div *ngFor="let item of destroyedBuckets; let i = index">
+              <div class="card resource-card mt-4">
+                <div class="card-header">{{item.platform}}</div>
+                <div class="card-body">
+                  <h5 class="card-title text-danger">{{item.recordStatus}}</h5>
+                  <div class="row justify-content-evenly text-center">
+                    <div class="col"><h6>Name</h6><p>{{item.bucketName}}</p></div>
+                    <div class="col"><h6>Region</h6><p>{{item.region}}</p></div>
+                    <div class="col"><h6>Deployed Date</h6><p>{{item.createdDate}}</p></div>
+                    <div class="col"><h6>Destroyed Date</h6><p>{{item.destroyedDate}}</p></div>
+                    <div class="col"><h6>Runtime</h6><p>{{item.runningHours}}</p></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
